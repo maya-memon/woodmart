@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+section{
+  height: 600px;
+  width: 100%;
+  background-image: url(w-accessories-slider.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 34px;
+ }
+ #logo{
+    margin: 10px 34px ;
+ }
+  #logo img{
+    height: 59px;
+    margin:3px 6px;
+  }
+  #navbar ul{
+    display: flex;
+  }
+  #navbar ul li{
+    list-style: none;
+    font-size: 0.9rem;
+  }
+  #navbar ul li a{
+    color:black;
+    text-decoration: none;
+     display: block;
+    padding: 2px 15px; }
+    .login{
+        display:flex;
+        margin:1px 182px;
+      gap:30px;
+      }
+
+
+      #container{
+        margin: 34px;
+        display:flex;
+        height:300px;
+        width:100%;
+        display:flex;
+        justify-content:center;
+        gap:15px;
+      }
+      #container .box{
+        padding: 22px;
+        margin: 2px 12px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        cursor: pointer;
+      }
+      #container .box img{
+        height:130px;
+        border-radius: 50%;
+   display: block;
+      }
+
+
+      #services{
+        margin-bottom:50px;
+        padding-bottom:50px;
+      }
+      #services .heading{
+        font-size: 50px;
+        text-align: center;
+      }
+      #services .h-primary {
+        color: rgb(0, 17, 255);
+        padding-top:40px;
+      }
+      #services p{
+        color:  grey;
+        text-align: center;
+      }
+      .h1-secondary{
+        font-size: 1.2rem;
+        padding: 12px;
+      }
+      .center{
+        text-align: center ;
+        margin: 10px;
+    
+      }
+      
+      
+      #home ul{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        list-style:none;
+        padding:23px 4px;
+        gap:20px;
+      }
+#home ul a{
+  text-decoration:none;
+  color: rgb(36, 51, 65);
+}
+#home ul a:hover{
+  text-decoration:underline;
+}
+
+
+#mobiles{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap:30px;
+}
+#mobiles .h1-secondary{
+  font-size: 0.9rem;
+  color: rgb(39 36 36 / 86%);
+}
+#mobiles .h2-secondary{
+  color: blue;
+}
+#mobiles.boxx{
+  padding: 22px;
+        margin: 2px 12px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        cursor: pointer;
+}
+#mobiles .boxx img{
+  height:300px;
+  border-radius: 20px;
+display: block;
+}
+ 
+.tags{
+  margin: 34px;
+  height:300px;
+  display:flex;
+  justify-content:center;
+  gap:15px;
+}
+.tags .items{
+  padding: 22px;
+  margin: 2px 12px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.tags .items img{
+  padding-left:150px;
+  margin:24px;
+  height:100px;
+  display: block;
+  justify-content:center;
+  align-items:center;
+}
+
+
+.pics{
+  display: flex;
+  height: 200px;
+}
+.pics .box{
+  height:200px;
+  width:100%;
+}
+.pics .box img{
+  height: 200px;
+  display: block;
+}
+
+
+footer{
+  display: flex;
+  height: 150px;
+  width: 100%;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+gap: 90px;
+}
+footer img{
+  margin-right:100px;
+}
+
+footer ul{
+  display: flex;
+  color: white;
+  gap:30px;
+  margin-left: 54px;
+}
+  footer ul li{
+      list-style: none;
+    font-size: 1.1rem;
+    } 
+    footer #Copyright{
+      color:white;
+       margin-left:55px;
+     }
